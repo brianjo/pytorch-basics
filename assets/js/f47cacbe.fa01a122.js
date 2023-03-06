@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[686],{2740:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/pytorch-basics/blog/tags/docusaurus","allTagsPath":"/pytorch-basics/blog/tags","count":4}')}}]);

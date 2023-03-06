@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[284],{6912:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/pytorch-basics/blog/tags/hola","allTagsPath":"/pytorch-basics/blog/tags","count":1}')}}]);
