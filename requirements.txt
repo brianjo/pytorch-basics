@@ -1,0 +1,8 @@
+setuptools
+notebook
+torch
+torchaudio
+torchvision
+boto3
+pandas
+matplotlib
