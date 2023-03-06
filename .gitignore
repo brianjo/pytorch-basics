@@ -21,4 +21,5 @@ yarn-error.log*
 
 /tutorials/*.md
 /tutorials/data
+/tutorials/*.pth
 
