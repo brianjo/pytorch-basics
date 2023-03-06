@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'PyTorch Basics',
   tagline: 'An introduction to PyTorch',
-  favicon: 'img/favicon.png',
+  favicon: 'img/pytorch-logo.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
