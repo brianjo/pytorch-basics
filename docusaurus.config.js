@@ -67,7 +67,7 @@ const config = {
         title: 'PyTorch Basics',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/jupisaurus.png',
+          src: 'img/pytorch-logo.svg',
         },
         items: [
           {
