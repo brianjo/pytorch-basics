@@ -1,8 +1,3 @@
-```python
-%matplotlib inline
-```
-
-
 [Learn the Basics](intro.html) ||
 [Quickstart](quickstart_tutorial.html) ||
 [Tensors](tensorqs_tutorial.html) ||
@@ -49,6 +44,8 @@ We load the [FashionMNIST Dataset](https://pytorch.org/vision/stable/datasets.ht
 
 
 ```python
+%matplotlib inline
+
 import torch
 from torch.utils.data import Dataset
 from torchvision import datasets
@@ -106,7 +103,7 @@ plt.show()
 
 
     
-![png](../docs/04-Data_files/../docs/04-Data_6_0.png)
+![png](../docs/04-Data_files/../docs/04-Data_5_0.png)
     
 
 
@@ -268,11 +265,11 @@ print(f"Label: {label}")
 
 
     
-![png](../docs/04-Data_files/../docs/04-Data_21_1.png)
+![png](../docs/04-Data_files/../docs/04-Data_20_1.png)
     
 
 
-    Label: 1
+    Label: 3
 
 
 --------------

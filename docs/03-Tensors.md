@@ -73,8 +73,8 @@ print(f"Random Tensor: \n {x_rand} \n")
             [1, 1]]) 
     
     Random Tensor: 
-     tensor([[0.0504, 0.9505],
-            [0.6485, 0.6105]]) 
+     tensor([[0.7786, 0.0142],
+            [0.3120, 0.9157]]) 
     
 
 
@@ -97,8 +97,8 @@ print(f"Zeros Tensor: \n {zeros_tensor}")
 ```
 
     Random Tensor: 
-     tensor([[0.6582, 0.2838, 0.1244],
-            [0.1692, 0.0394, 0.2638]]) 
+     tensor([[0.7263, 0.5640, 0.3222],
+            [0.9226, 0.3125, 0.3739]]) 
     
     Ones Tensor: 
      tensor([[1., 1., 1.],

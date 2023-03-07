@@ -1,8 +1,3 @@
-```python
-%matplotlib inline
-```
-
-
 [Learn the Basics](intro.html) ||
 [Quickstart](quickstart_tutorial.html) ||
 [Tensors](tensorqs_tutorial.html) ||
@@ -31,6 +26,8 @@ PyTorch in the following manner:
 
 
 ```python
+%matplotlib inline
+
 import torch
 
 x = torch.ones(5)  # input tensor
@@ -77,8 +74,8 @@ print(f"Gradient function for z = {z.grad_fn}")
 print(f"Gradient function for loss = {loss.grad_fn}")
 ```
 
-    Gradient function for z = <AddBackward0 object at 0x10fa1ee80>
-    Gradient function for loss = <BinaryCrossEntropyWithLogitsBackward0 object at 0x10fa1e430>
+    Gradient function for z = <AddBackward0 object at 0x10427e550>
+    Gradient function for loss = <BinaryCrossEntropyWithLogitsBackward0 object at 0x10427e670>
 
 
 ## Computing Gradients
@@ -101,12 +98,12 @@ print(w.grad)
 print(b.grad)
 ```
 
-    tensor([[0.3244, 0.2353, 0.0700],
-            [0.3244, 0.2353, 0.0700],
-            [0.3244, 0.2353, 0.0700],
-            [0.3244, 0.2353, 0.0700],
-            [0.3244, 0.2353, 0.0700]])
-    tensor([0.3244, 0.2353, 0.0700])
+    tensor([[0.1692, 0.2790, 0.2088],
+            [0.1692, 0.2790, 0.2088],
+            [0.1692, 0.2790, 0.2088],
+            [0.1692, 0.2790, 0.2088],
+            [0.1692, 0.2790, 0.2088]])
+    tensor([0.1692, 0.2790, 0.2088])
 
 
 <div class="alert alert-info"><h4>Note</h4><p>- We can only obtain the ``grad`` properties for the leaf

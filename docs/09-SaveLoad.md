@@ -1,8 +1,3 @@
-```python
-%matplotlib inline
-```
-
-
 [Learn the Basics](intro.html) ||
 [Quickstart](quickstart_tutorial.html) ||
 [Tensors](tensorqs_tutorial.html) ||
@@ -20,6 +15,8 @@ In this section we will look at how to persist model state with saving, loading 
 
 
 ```python
+%matplotlib inline
+
 import torch
 import torchvision.models as models
 ```
