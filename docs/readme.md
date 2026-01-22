@@ -1,1 +1,1 @@
-This folded will hold the generaged content for the tutorials. 
+This folded will hold the generated content for the tutorials. 
